@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  :root {
+    --bgm: #0B0820;
+    --button: #13ce7c;
+  }
+  body, html {
+    height: 100%;
+    background-color: var(--bgm);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+
+  .logo{
+
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;flex: 1;
+  }
+
+  /* header{
+    width: 85%;
+
+    margin:auto;
+    margin-top: 1.6rem;
+    display: flex;
+  } */
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    padding: 0 1rem;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+  }
+  
+
+  .explore-button {
+    padding: 0.5rem 1.6rem;
+    background-color:var(--button); /* Example button color */
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+.hbtn{
+  background-color:var(--button);
+
+}
+
+  .hero{
+
+
+    height: 75vh;
+  }
+
+  .hero-content{
+    flex: 2;
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* background: red; */
+  }
+  .hero-image{
+    flex: 3;
+    background: gray;
+  }
+
+  h1{
+
+    font-size: 3rem;
+  }
+  
+
+
+
+.partners{
+
+  height: 14vh;
+  width: 70%;
+  margin: auto;
+  
+}
+
+
+.mgin{
+
+  margin: auto;
+  width: 80%;
+}
+
+.btncolor{
+
+  background-color: #160079;
+}
